@@ -6,11 +6,11 @@
     - name: Label
       value: Molecular Biologist and Bioinformatician
     - name: Email
-      value: "[erfan.m.farhadieh99@gmail.com](mailto:erfan.m.farhadieh99@gmail.com)"
+      value: <a href="mailto:erfan.m.farhadieh99@gmail.com">erfan.m.farhadieh99@gmail.com</a>
     - name: Personal Website
-      value: "[https://mefarhadieh.github.io](https://mefarhadieh.github.io)" 
+      value: <a href="https://mefarhadieh.github.io">https://mefarhadieh.github.io</a>
     - name: Languages
-      value: English (Fluent), Persian (Native)
+      value: English (fluent), Persian (native)
     - name: Summary
       value: A passionate biologist with a keen interest in multimodal data who is dedicated to solving complex challenges and advancing research through innovative approaches
       
@@ -23,7 +23,7 @@
       description:
         - GPA:19.08/20 (4/4) 
         - First among 10
-        - Thesis: Identification of differential transcripts usage in the Alzheimer’s disease brain cells based on single cell RNA sequencing data
+        - Thesis -> Identification of differential transcripts usage in the Alzheimer’s disease brain cells based on single cell RNA sequencing data
     - title: B.S. in Animal Biology
       institution: University of Isfahan, Isfahan, Iran
       year: 2020
@@ -36,14 +36,14 @@
   contents:
     - title: Research Assistant
       institution: Developmental Biology Lab, University of Isfahan, Iran 
-      year: Apr 2023 - Now
+      year: Apr2023-Present
       description:
         - Analyzing single cell RNA-Seq profiles of dopaminergic neurons subpopulation during floor plate development to identify key lncRNAs controlling differentiation processes
         - Analyzing single cell RNA-Seq, RNA-Seq, ATAC-Seq, and DNA methylation data of Parkinson diseases
 
     - title: Research Assistant 
       institution: NeuroTRACT Association, University of Tehran Medical Science, Iran 
-      year: Apr 2023 - Now
+      year: Apr2023-Present
       description:
         - title: Analyzing multi-module data of Alzheimer’s disease cohorts with machine learning approaches to identify potential biomarkers
           contents:
@@ -53,18 +53,41 @@
 
     - title: Research Assistant / Graduate Student
       institution: Molecular Biology Lab, University of Isfahan, Iran 
-      year: Sep 2021 - Jan 2023
+      year: Sep2021-Jan2023
       description:
         - Analyzed NGS data of post-mortem brain to detect alternative splicing and gene expression alterations in Alzheimer’s disease at the cell level
         - Designed an approach to reduce failed exon junctions calling in scRNA-seq data and memory consumption
 
     - title: Research Assistant
       institution: Cellular Neuroscience Lab, Shahid Beheshti University of Medical Science, Iran 
-      year: Feb 2019 - Oct 2019
+      year: Feb2019-Oct2019
       description:
         - Determined cell linage by flow cytometry, and conducted primary cell culture and RNA isolation to examine stem cell therapy effects on neurodegeneration
         - Rat handling, setting up lab equipment, and maintaining a safe lab environment
-  
+    
+    - title: Research Assistant
+      institution: Gastrointestinal Disorders Research Center, Shahid Beheshti University of Medical Science, Iran 
+      year: Sep2018-Feb2019
+      description:
+        - Conducted RNA isolation and mammalian cell culture techniques including MTT, migration, and invasion assay to reveal miR-298 role in colon cancer
+        - Assist in western blot, flow cytometry, and luciferase assay
+
+    - title: Chief Editor
+      institution: Jahesh scientific-specialized biology journal, University of Isfahan, Iran  
+      year: Sep2018-Sep2020
+      - title: Jahesh is a student journal that publishes only formal scientific review articles written by students in Persian
+          contents:
+            - Ensure all articles meet the journal’s standards and guidelines
+            - Assign submitted manuscripts to appropriate reviewers 
+            - Manage the layout and formatting of the journal
+
+    - title: Summer Intern
+      institution: Royan Institute, Iran  
+      year: Summer 2018
+      description:
+        - Conducted mammalian cell culture techniques
+        - Investigating the effect of mitogens on cell growth
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -86,7 +109,7 @@
     - year: 2020
       items: 
         - Top 1% among 80,000 candidates in national graduate entrance exam 
-    - year: 2017, 2018, 2019, 2020
+    - year: 2017,18,19,20
       items:
         - Distinguished student of province of Isfahan
     - year: 2019
