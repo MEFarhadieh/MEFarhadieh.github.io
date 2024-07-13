@@ -65,21 +65,19 @@
         - Determined cell linage by flow cytometry, and conducted primary cell culture and RNA isolation to examine stem cell therapy effects on neurodegeneration
         - Rat handling, setting up lab equipment, and maintaining a safe lab environment
     
-    - title: Research Assistant
-      institution: Gastrointestinal Disorders Research Center, Shahid Beheshti University of Medical Science, Iran 
-      year: Sep2018-Feb2019
+    - title: Research Assistant / Graduate Student
+      institution: Molecular Biology Lab, University of Isfahan, Iran 
+      year: Sep2021-Jan2023
       description:
-        - Conducted RNA isolation and mammalian cell culture techniques including MTT, migration, and invasion assay to reveal miR-298 role in colon cancer
-        - Assist in western blot, flow cytometry, and luciferase assay
+        - Analyzed NGS data of post-mortem brain to detect alternative splicing and gene expression alterations in Alzheimer’s disease at the cell level
+        - Designed an approach to reduce failed exon junctions calling in scRNA-seq data and memory consumption
 
-    - title: Chief Editor
-      institution: Jahesh scientific-specialized biology journal, University of Isfahan, Iran  
-      year: Sep2018-Sep2020
-      - title: Jahesh is a student journal that publishes only formal scientific review articles written by students in Persian
-          contents:
-            - Ensure all articles meet the journal’s standards and guidelines
-            - Assign submitted manuscripts to appropriate reviewers 
-            - Manage the layout and formatting of the journal
+    - title: Research Assistant / Graduate Student
+      institution: Molecular Biology Lab, University of Isfahan, Iran 
+      year: Sep2021-Jan2023
+      description:
+        - Analyzed NGS data of post-mortem brain to detect alternative splicing and gene expression alterations in Alzheimer’s disease at the cell level
+        - Designed an approach to reduce failed exon junctions calling in scRNA-seq data and memory consumption
 
     - title: Summer Intern
       institution: Royan Institute, Iran  
