@@ -2,96 +2,145 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Mohammaderfan Farhadieh
+    - name: Label
+      value: Molecular Biologist and Bioinformatician
+    - name: Email
+      value: "[erfan.m.farhadieh99@gmail.com](mailto:erfan.m.farhadieh99@gmail.com)"
+    - name: Personal Website
+      value: "[https://mefarhadieh.github.io](https://mefarhadieh.github.io)" 
     - name: Languages
-      value: English, German
-
+      value: English (Fluent), Persian (Native)
+    - name: Summary
+      value: A passionate biologist with a keen interest in multimodal data who is dedicated to solving complex challenges and advancing research through innovative approaches
+      
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Cell and Molecular Biology
+      institution: University of Isfahan, Isfahan, Iran
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA:19.08/20 (4/4) 
+        - First among 10
+        - Thesis: Identification of differential transcripts usage in the Alzheimer’s disease brain cells based on single cell RNA sequencing data
+    - title: B.S. in Animal Biology
+      institution: University of Isfahan, Isfahan, Iran
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - GPA:18.48/20 (3.95/4)
+        - First among 30
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Developmental Biology Lab, University of Isfahan, Iran 
+      year: Apr 2023 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Analyzing single cell RNA-Seq profiles of dopaminergic neurons subpopulation during floor plate development to identify key lncRNAs controlling differentiation processes
+        - Analyzing single cell RNA-Seq, RNA-Seq, ATAC-Seq, and DNA methylation data of Parkinson diseases
+
+    - title: Research Assistant 
+      institution: NeuroTRACT Association, University of Tehran Medical Science, Iran 
+      year: Apr 2023 - Now
+      description:
+        - title: Analyzing multi-module data of Alzheimer’s disease cohorts with machine learning approaches to identify potential biomarkers
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Polygenic score based on SNPs
+            - miRNA expression in CSF and Plasma 
+            - Proteins concentrations in CSF and Plasma
+
+    - title: Research Assistant / Graduate Student
+      institution: Molecular Biology Lab, University of Isfahan, Iran 
+      year: Sep 2021 - Jan 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Analyzed NGS data of post-mortem brain to detect alternative splicing and gene expression alterations in Alzheimer’s disease at the cell level
+        - Designed an approach to reduce failed exon junctions calling in scRNA-seq data and memory consumption
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: Cellular Neuroscience Lab, Shahid Beheshti University of Medical Science, Iran 
+      year: Feb 2019 - Oct 2019
       description:
+        - Determined cell linage by flow cytometry, and conducted primary cell culture and RNA isolation to examine stem cell therapy effects on neurodegeneration
+        - Rat handling, setting up lab equipment, and maintaining a safe lab environment
+      
+    - title: Research Assistant
+      institution: Gastrointestinal Disorders Research Center, Shahid Beheshti University of Medical Science, Iran 
+      year: Sep 2018 - Feb 2019
+      description:
+        - Conducted RNA isolation and mammalian cell culture techniques including MTT, migration, and invasion assay to reveal miR-298 role in colon cancer
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Chief Editor
+      institution: Jahesh scientific-specialized biology journal, University of Isfahan, Iran  
+      year: Sep 2018 - Sep 2020
+      - title: Jahesh is a student journal that publishes only formal scientific review articles written by students in Persian
+          contents:
+            - Ensure all articles meet the journal’s standards and guidelines
+            - Assign submitted manuscripts to appropriate reviewers 
+            - Manage the layout and formatting of the journal
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Summer Intern
+      institution: Royan Institute, Iran  
+      year: Summer 2018
+      description:
+        - Conducted mammalian cell culture techniques
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Bornacell award
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Distinguished graduate student at University of Isfahan
+    - year: 2021
+      items:
+        - Gold medal in national stem cells and tissue culture Olympia 
+    - year: 2020
+      items:
+        - Top 1% among 80,000 candidates in national graduate entrance exam
+    - year: 2020
+      items:
+        - Distinguished undergraduate student at University of Isfahan
+    - year: 2020
+      items: 
+        - Top 1% among 80,000 candidates in national graduate entrance exam 
+    - year: 2017, 2018, 2019, 2020
+      items:
+        - Distinguished student of province of Isfahan
+    - year: 2019
+      items:
+        - Students’ Publications Award
+    - year: 2016
+      items:
+        - Top 5% among 520,000 candidates in national university entrance exam 
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Bioinformatics and Multimodal Data Analysis 
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Single Cell Data (scRNA-Seq, scATAC-Seq)
+        - RNA splicing and processing analysis with RNA-Seq based data
+        - Peak calling
+        - Variant calling
+        - DNA methylation
+        - Quantitative Trait Locus (QTL) analysis
+        - Spatial transcriptomics
+        - Application of machine learning and deep learning algorithms to bioinformatics
+    - title: Molecular Pathology of Multifactorial Diseases
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Gene regulatory network behind multifactorial diseases
+        - Signaling pathways behind multifactorial diseases
+        - Cell-cell comunication behind multifactorial diseases
+        - Perturbation model generation
+        - Cheap screaning
+        - Cheap treatments
+    - title: Stem Cells and Development Biology
+      items:
+        - Lineage tracing
+        - Neurogenesis regulation
+        - Microfluidic systems
+        - Optimizing Stem Cell Differentiation
