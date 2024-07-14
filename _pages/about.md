@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.ui.ac.ir/en'>Affiliations</a>. Department of Cell and Molecular Biology and Microbiology, Faculty of Biological Sciences and Technology, University of Isfahan, Isfahan, Iran.
 
 profile:
   align: right
@@ -13,13 +13,17 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am Erfan, a passionate molecular biologist and bioinformatician with a keen interest in multimodal data who is dedicated to solving complex challenges and advancing research through innovative approaches. I am a recent Master's graduate in Cell and Molecular Biology from University of Isfahan.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have a strong passion for bioinformatics and multimodal data analysis, and my research interests lie in the molecular pathology of multifactorial diseases such as neurodegenerative disorders, as well as stem cells and developmental biology. During my undergraduate studies, I gained extensive hands-on experience in wet lab projects, including cell culture techniques and RNA extraction. In my Master's program, I focused more on bioinformatics and dry lab work, honing my skills in data analysis and computational biology.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Throughout my academic journey, I have collaborated with diverse teams, including biologists, engineers, physicians, psychologists, statisticians, and mathematicians, learning valuable lessons from each discipline. However, I believe there is still much more to learn and I am eager to discuss new research opportunities and advancements. So if you are interested in my work or would like to discuss potential opportunities, please feel free to [contact me](mailto:erfan.m.farhadieh99@gmail.com).
+
+My goal is to pursue a PhD in life sciences or computational biology to delve deeper into my research interests. I am especially interested in developing innovative bioinformatics and multimodal data analysis methods to improve our comprehension of molecular pathology for complex diseases.
+
+I am motivated by the desire to solve complex biological problems and to contribute to the scientific community through innovative research. I look forward to collaborating with leading researchers and institutions to drive forward cutting-edge research.
