@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Understanding WGCNA
-date: 2024-07-24 10:59:16
-description: march & april, looking forward to summer
-tags: formatting links
-categories: sample-posts
+title: Understanding Weighted Gene Co-Expression Network Analysis (WGCNA) with a Simple Example
+date: 2024-07-24
+description: How WGCNA works?
+tags: Bioinformatics
+categories: Networks
+related_posts: false
 ---
 
 ### Introduction
@@ -18,60 +19,275 @@ Before performing WGCNA, genes with low variance or incomplete data are filtered
 
 **Example:**
 
-| Sample | Gene1 | Gene2 | Gene3 | Gene4 | Gene5 | Gene6 |
-|--------|-------|-------|-------|-------|-------|-------|
-| A      | 5     | 0     | 50    | 100   | 2     | 10    |
-| B      | 6     | 0     | 52    | 95    | 3     | 12    |
-| C      | 5     | 1     | 48    | 98    | 2     | 9     |
-| D      | 7     | 0     | 51    | 102   | 4     | 11    |
-| E      | 6     | 0     | 49    | 97    | 3     | 10    |
+<div class="table-responsive">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Sample</th>
+      <th>Gene1</th>
+      <th>Gene2</th>
+      <th>Gene3</th>
+      <th>Gene4</th>
+      <th>Gene5</th>
+      <th>Gene6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>5</td>
+      <td>0</td>
+      <td>50</td>
+      <td>100</td>
+      <td>2</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>6</td>
+      <td>0</td>
+      <td>52</td>
+      <td>95</td>
+      <td>3</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>5</td>
+      <td>1</td>
+      <td>48</td>
+      <td>98</td>
+      <td>2</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>7</td>
+      <td>0</td>
+      <td>51</td>
+      <td>102</td>
+      <td>4</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>6</td>
+      <td>0</td>
+      <td>49</td>
+      <td>97</td>
+      <td>3</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 Genes with low variance (Gene2) and incomplete data (Gene5) are filtered out:
 
-| Sample | Gene1 | Gene3 | Gene4 | Gene6 |
-|--------|-------|-------|-------|-------|
-| A      | 5     | 50    | 100   | 10    |
-| B      | 6     | 52    | 95    | 12    |
-| C      | 5     | 48    | 98    | 9     |
-| D      | 7     | 51    | 102   | 11    |
-| E      | 6     | 49    | 97    | 10    |
+<div class="table-responsive">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Sample</th>
+      <th>Gene1</th>
+      <th>Gene3</th>
+      <th>Gene4</th>
+      <th>Gene6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>5</td>
+      <td>50</td>
+      <td>100</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>6</td>
+      <td>52</td>
+      <td>95</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>5</td>
+      <td>48</td>
+      <td>98</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>7</td>
+      <td>51</td>
+      <td>102</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>6</td>
+      <td>49</td>
+      <td>97</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 #### 2. Normalization
 Data normalization helps in reducing non-biological variations. Methods like Z-score normalization are commonly used.
 
 **Example:**
 
-| Sample | Gene1  | Gene3  | Gene4  | Gene6  |
-|--------|--------|--------|--------|--------|
-| A      | -1.0   | -0.1   | 0.5    | -0.5   |
-| B      | 0.0    | 1.3    | -1.1   | 1.5    |
-| C      | -1.0   | -1.5   | -0.3   | -1.5   |
-| D      | 1.0    | 0.7    | 1.1    | 0.5    |
-| E      | 0.0    | -0.3   | -0.5   | 0.0    |
+<div class="table-responsive">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Sample</th>
+      <th>Gene1</th>
+      <th>Gene3</th>
+      <th>Gene4</th>
+      <th>Gene6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>-1.0</td>
+      <td>-0.1</td>
+      <td>0.5</td>
+      <td>-0.5</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>0.0</td>
+      <td>1.3</td>
+      <td>-1.1</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>-1.0</td>
+      <td>-1.5</td>
+      <td>-0.3</td>
+      <td>-1.5</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>1.0</td>
+      <td>0.7</td>
+      <td>1.1</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>0.0</td>
+      <td>-0.3</td>
+      <td>-0.5</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 #### 3. Calculating Similarity Matrix
 The similarity between pairs of genes is calculated using Pearson correlation.
 
 **Example:**
 
-|        | Gene1 | Gene3 | Gene4 | Gene6 |
-|--------|-------|-------|-------|-------|
-| Gene1  | 1.0   | 0.8   | 0.4   | 0.6   |
-| Gene3  | 0.8   | 1.0   | 0.5   | 0.7   |
-| Gene4  | 0.4   | 0.5   | 1.0   | 0.3   |
-| Gene6  | 0.6   | 0.7   | 0.3   | 1.0   |
+<div class="table-responsive">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Gene1</th>
+      <th>Gene3</th>
+      <th>Gene4</th>
+      <th>Gene6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gene1</td>
+      <td>1.0</td>
+      <td>0.8</td>
+      <td>0.4</td>
+      <td>0.6</td>
+    </tr>
+    <tr>
+      <td>Gene3</td>
+      <td>0.8</td>
+      <td>1.0</td>
+      <td>0.5</td>
+      <td>0.7</td>
+    </tr>
+    <tr>
+      <td>Gene4</td>
+      <td>0.4</td>
+      <td>0.5</td>
+      <td>1.0</td>
+      <td>0.3</td>
+    </tr>
+    <tr>
+      <td>Gene6</td>
+      <td>0.6</td>
+      <td>0.7</td>
+      <td>0.3</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 #### 4. Creating Weighted Adjacency Matrix
 The similarity measures are raised to a power β to emphasize strong correlations and diminish weak ones.
 
 **Example:**
 
-|        | Gene1   | Gene3   | Gene4   | Gene6   |
-|--------|---------|---------|---------|---------|
-| Gene1  | 1.0     | 0.2621  | 0.0041  | 0.0467  |
-| Gene3  | 0.2621  | 1.0     | 0.0156  | 0.1176  |
-| Gene4  | 0.0041  | 0.0156  | 1.0     | 0.0007  |
-| Gene6  | 0.0467  | 0.1176  | 0.0007  | 1.0     |
+<div class="table-responsive">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Gene1</th>
+      <th>Gene3</th>
+      <th>Gene4</th>
+      <th>Gene6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gene1</td>
+      <td>1.0</td>
+      <td>0.2621</td>
+      <td>0.0041</td>
+      <td>0.0467</td>
+    </tr>
+    <tr>
+      <td>Gene3</td>
+      <td>0.2621</td>
+      <td>1.0</td>
+      <td>0.0156</td>
+      <td>0.1176</td>
+    </tr>
+    <tr>
+      <td>Gene4</td>
+      <td>0.0041</td>
+      <td>0.0156</td>
+      <td>1.0</td>
+      <td>0.0007</td>
+    </tr>
+    <tr>
+      <td>Gene6</td>
+      <td>0.0467</td>
+      <td>0.1176</td>
+      <td>0.0007</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 #### 5. Constructing Gene Network
 Using the weighted adjacency matrix, a gene network is created where nodes represent genes, and edges represent weighted connections.
@@ -91,4 +307,16 @@ WGCNA is a powerful tool for identifying gene modules and understanding gene net
 1. Langfelder P, Horvath S. WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics. 2008.
 2. Zhang B, Horvath S. A general framework for weighted gene co-expression network analysis. Stat Appl Genet Mol Biol. 2005.
 
+---
 
+<!-- Comments Section -->
+<div id="disqus_thread"></div>
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://YOUR_DISQUS_SHORTNAME_HERE.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
