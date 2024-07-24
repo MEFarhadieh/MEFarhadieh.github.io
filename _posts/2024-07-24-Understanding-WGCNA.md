@@ -5,6 +5,7 @@ date: 2024-07-24
 description: How WGCNA works?
 tags: Bioinformatics
 categories: Networks
+disqus_comments: true
 related_posts: false
 ---
 
@@ -307,16 +308,3 @@ WGCNA is a powerful tool for identifying gene modules and understanding gene net
 1. Langfelder P, Horvath S. WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics. 2008.
 2. Zhang B, Horvath S. A general framework for weighted gene co-expression network analysis. Stat Appl Genet Mol Biol. 2005.
 
----
-
-<!-- Comments Section -->
-<div id="disqus_thread"></div>
-<script>
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://YOUR_DISQUS_SHORTNAME_HERE.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
