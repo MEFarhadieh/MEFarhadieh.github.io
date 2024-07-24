@@ -1,81 +1,80 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: Dopaminergic Neuron Neurogenesis and Differentiation
+description: The Role of lncRNA and Insights for Parkinson's Disease Treatment
+img: assets/img/Dopagen1.png
 importance: 1
 category: work
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Dopagen1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Credit: iXCellsBIOTECHNOLOGIES® Human iPSC-derived dopaminergic neurons. TH(red), DAPI(blue), and MAP2(green).
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="justified-text">
+  Dopaminergic (DA) neurons, known for their critical role in modulating motor control, motivation, and reward pathways, are essential for proper brain function. The degeneration of these neurons is a hallmark of Parkinson's disease (PD) and other related neurodegenerative disorders. Understanding the process of neurogenesis and differentiation of DA neurons, and the role of long non-coding RNAs (lncRNAs) in these processes, opens new avenues for therapeutic strategies.
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+### Neurogenesis and Differentiation of Dopaminergic Neurons
+
+Neurogenesis refers to the process by which new neurons are formed in the brain. This process is crucial during development and also in the adult brain, where it plays a role in plasticity and repair. The differentiation of neural progenitor cells into DA neurons involves a complex interplay of genetic and epigenetic factors, signaling pathways, and transcriptional networks.
+
+- **Genetic Factors**: Genes such as Nurr1, Lmx1a/b, and Pitx3 are pivotal in the development of DA neurons. These genes regulate the expression of downstream targets necessary for the maturation and function of DA neurons.
+
+- **Signaling Pathways**: Pathways like Wnt/β-catenin, Shh (Sonic Hedgehog), and FGF (Fibroblast Growth Factor) signaling are crucial in the specification and differentiation of DA neurons. These pathways interact with transcription factors to ensure the proper development of DA neurons.
+
+- **Epigenetic Regulation**: Epigenetic mechanisms, including DNA methylation, histone modification, and chromatin remodeling, play a significant role in the regulation of genes involved in DA neuron differentiation.
+
+
+### The Role of lncRNA in Dopaminergic Neuron Differentiation and Neurogenesis
+
+Long non-coding RNAs (lncRNAs) are a diverse class of RNA molecules longer than 200 nucleotides that do not encode proteins. They have emerged as critical regulators of gene expression at various levels, including chromatin modification, transcription, and post-transcriptional processing.
+
+- **Gene Expression Regulation**: lncRNAs can modulate the expression of key genes involved in DA neuron differentiation. For instance, lncRNA HOTAIR has been shown to interact with polycomb repressive complex 2 (PRC2) to modulate chromatin states, influencing the expression of genes necessary for DA neuron specification.
+
+- **Neurogenesis**: lncRNAs like MALAT1 and NEAT1 have been implicated in neurogenesis, affecting cell proliferation, differentiation, and survival. Their dysregulation can lead to impaired neurogenesis and may contribute to neurodegenerative diseases.
+
+- **Epigenetic Modulation**: lncRNAs can recruit chromatin-modifying enzymes to specific genomic loci, altering the epigenetic landscape and influencing the differentiation of neural progenitors into DA neurons.
+
+#### Insights for Parkinson's Disease Treatment
+
+The intricate role of lncRNAs in the differentiation and function of DA neurons provides valuable insights for developing therapeutic strategies for Parkinson's disease and related disorders.
+
+- **Therapeutic Targets**: Identifying lncRNAs that are dysregulated in Parkinson's disease can lead to the discovery of novel therapeutic targets. Modulating the expression or function of these lncRNAs may restore normal DA neuron function or promote neurogenesis and repair.
+
+- **Gene Therapy**: Advances in gene-editing technologies, such as CRISPR/Cas9, offer the potential to specifically target and modify lncRNAs involved in DA neuron dysfunction. This approach could correct underlying genetic and epigenetic defects contributing to Parkinson's disease.
+
+- **Drug Development**: Small molecules or antisense oligonucleotides (ASOs) that target specific lncRNAs may be developed to modulate their activity. These therapeutic agents could enhance the differentiation of neural progenitors into DA neurons or protect existing DA neurons from degeneration.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dopagen2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Credit: Poulin, Jean-Francois, et al. "Classification of midbrain dopamine neurons using single-cell gene expression profiling approaches." Trends in neurosciences 43.3 (2020): 155-169.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Comprehensive Data Analysis for Parkinson's Disease
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+To uncover key molecular targets for therapeutic intervention, a comprehensive analysis of multi-omics data is essential. This approach involves integrating single-cell RNA sequencing (scRNA-Seq), bulk RNA-Seq, ATAC-Seq (Assay for Transposase-Accessible Chromatin using sequencing), and DNA methylation data from Parkinson's disease models and patients.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **scRNA-Seq**: Single-cell RNA sequencing provides a high-resolution view of gene expression at the individual cell level, revealing heterogeneity among DA neurons and identifying cell-type-specific expression patterns.
 
-{% raw %}
+- **RNA-Seq**: Bulk RNA sequencing offers insights into the overall transcriptional landscape, identifying differentially expressed genes and pathways involved in DA neuron differentiation and Parkinson's disease.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **ATAC-Seq**: This technique maps open chromatin regions, highlighting regulatory elements that control gene expression. Integrating ATAC-Seq data with RNA-Seq data can identify transcription factors and enhancers critical for DA neuron development.
 
-{% endraw %}
+- **DNA Methylation**: DNA methylation profiling reveals epigenetic changes associated with DA neuron differentiation and Parkinson's disease. Aberrant methylation patterns can identify potential biomarkers and therapeutic targets.
+
+
+### Conclusion
+
+The study of dopaminergic neuron neurogenesis and differentiation, particularly the role of lncRNAs, offers promising insights for developing new therapies for Parkinson's disease and related disorders. By leveraging comprehensive data analysis approaches, including scRNA-Seq, RNA-Seq, ATAC-Seq, and DNA methylation, researchers can uncover key molecular targets and pathways. These discoveries pave the way for innovative therapeutic strategies aimed at restoring DA neuron function and ultimately improving patient outcomes.
+
