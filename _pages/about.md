@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.ui.ac.ir/en'>Affiliations</a>. Department of Cell and Molecular Biology and Microbiology, Faculty of Biological Sciences and Technology, University of Isfahan, Isfahan, Iran.
+subtitle: <a href='https://uiold.ui.ac.ir/en'>Affiliations</a>. Department of Cell and Molecular Biology and Microbiology, Faculty of Biological Sciences and Technology, University of Isfahan, Isfahan, Iran.
 
 profile:
   align: right
@@ -16,13 +16,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <div class="justified-text">
-  Hello! I am Erfan, a passionate molecular biologist and bioinformatician with a keen interest in multimodal data who is dedicated to solving complex challenges and advancing research through innovative approaches. I am a recent Master's graduate in Cell and Molecular Biology from University of Isfahan.
+  Hello! I’m Erfan, a research assistant and bioinformatician with a strong academic foundation in cell and molecular biology and a growing expertise in omics data analysis. I’m currently involved in projects focused on understanding the genetic and epigenetic landscape of neurodegenerative diseases, particularly through single-cell and transcriptomic data.
   <br><br>
-  I have a strong passion for bioinformatics and multimodal data analysis, and my research interests lie in the molecular pathology of multifactorial diseases such as neurodegenerative disorders, as well as stem cells and developmental biology. During my undergraduate studies, I gained extensive hands-on experience in wet lab projects, including cell culture techniques and RNA extraction. In my Master's program, I focused more on bioinformatics and dry lab work, honing my skills in data analysis and computational biology.
+  Over the past two years, I’ve been part of collaborative research initiatives in Iran, combining computational and biological approaches to address complex problems in precision medicine. These experiences have deepened my interest in data-driven research, especially in the context of population diversity and functional genomics.
   <br><br>
   Throughout my academic journey, I have collaborated with diverse teams, including biologists, engineers, physicians, psychologists, statisticians, and mathematicians, learning valuable lessons from each discipline. However, I believe there is still much more to learn and I am eager to discuss new research opportunities and advancements. So if you are interested in my work or would like to discuss potential opportunities, please feel free to <a href="mailto:erfan.m.farhadieh99@gmail.com">contact me</a>.
   <br><br>
-  My goal is to pursue a PhD in life sciences or computational biology to delve deeper into my research interests. I am especially interested in developing innovative bioinformatics and multimodal data analysis methods to improve our comprehension of molecular pathology for complex diseases.
+  My long-term goal is to contribute to the development of affordable and accessible genetic diagnostics in Iran, particularly for neurodegenerative conditions. I hope to apply my skills in academic or clinical collaborations to support local healthcare needs through innovative, yet practical, research.
   <br><br>
-  I am motivated by the desire to solve complex biological problems and to contribute to the scientific community through innovative research. I look forward to collaborating with leading researchers and institutions to drive forward cutting-edge research.
+  I’m always open to academic discussions and collaborations. Feel free to reach out if you’d like to connect or learn more about my work.
 </div>
