@@ -121,30 +121,15 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2024
-      items:
-        - Bornacell Award
     - year: 2023
       items:
-        - Distinguished graduate student at University of Isfahan
-    - year: 2021
-      items:
-        - Gold medal in national stem cells and tissue culture Olympia 
+        - 1st rank at MSc. Cell and Molecular Biology University of Isfahan (2020 class)
     - year: 2020
       items:
-        - Top 1% among 80,000 candidates in national graduate entrance exam
-    - year: 2020
-      items:
-        - Distinguished undergraduate student at University of Isfahan 
-    - year: 2017, 18, 19, 20
-      items:
-        - Distinguished student of province of Isfahan
+        - 1st rank at BSc. Animal Biology University of Isfahan (2016 class) 
     - year: 2019
       items:
         - Students’ Publications Award
-    - year: 2016
-      items:
-        - Top 5% among 520,000 candidates in national university entrance exam 
 
 - title: Academic Interests
   type: nested_list
@@ -167,9 +152,3 @@
         - Perturbation model generation
         - Cheap screaning
         - Cheap treatments
-    - title: Stem Cells and Development Biology
-      items:
-        - Lineage tracing
-        - Neurogenesis regulation
-        - Microfluidic systems
-        - Optimizing Stem Cell Differentiation
