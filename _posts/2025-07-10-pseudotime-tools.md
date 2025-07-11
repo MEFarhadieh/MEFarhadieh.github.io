@@ -4,7 +4,6 @@ title: "Comparison of Pseudotime and Trajectory Inference Tools for Single-Cell 
 subtitle: "A comprehensive overview of tools to analyze cellular dynamics in scRNA-seq data"
 date: 2025-07-10
 description: A detailed comparison of trajectory inference tools for single-cell transcriptomics
-author: Your Name
 tags: [Bioinformatics, single-cell, pseudotime, trajectory, scRNA-seq, RNA velocity]
 categories: Single-Cell
 disqus_comments: true
