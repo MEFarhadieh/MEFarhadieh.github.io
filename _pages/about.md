@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://uiold.ui.ac.ir/en'>Affiliations</a>. Department of Cell and Molecular Biology and Microbiology, Faculty of Biological Sciences and Technology, University of Isfahan, Isfahan, Iran.
+subtitle: <a href='https://pharmazie.uni-graz.at/en/'>Affiliations</a>. Department of Pharmacology and Toxicology, Institute of Pharmaceutical Sciences, University of Graz, Graz, Austria.
 
 profile:
   align: right
