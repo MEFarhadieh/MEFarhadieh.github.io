@@ -33,7 +33,7 @@ I wanted to understand whether more aggressive QC methods provide meaningful imp
 
 ## Dataset
 
-For this analysis, I used the dataset from **GSE255612** [[4]](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255612), published by Weng et al. [[5]](https://pubmed.ncbi.nlm.nih.gov/39562555/). This dataset contains single-nucleus RNA-seq data from **16 healthy controls** and **18 atrial fibrillation patients**, providing a robust foundation for comparing QC methods in cardiac tissue analysis.
+For this analysis, I used the dataset from **GSE255612** [[4]](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255612), published by Hill et al. [[5]](https://pubmed.ncbi.nlm.nih.gov/39562555/). This dataset contains single-nucleus RNA-seq data from **16 healthy controls** and **18 atrial fibrillation patients**, providing a robust foundation for comparing QC methods in cardiac tissue analysis.
 
 ## Initial Data Assessment
 
@@ -170,4 +170,4 @@ The choice of QC method should be guided by the specific biological question and
 2. SoupX: [https://doi.org/10.1093/gigascience/giaa151](https://doi.org/10.1093/gigascience/giaa151)
 3. Scrublet: [https://doi.org/10.1016/j.cmet.2018.11.005](https://doi.org/10.1016/j.cmet.2018.11.005)
 4. GEO Dataset GSE255612: [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255612](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255612)
-5. Weng et al. (2024), PubMed ID 39562555: [https://pubmed.ncbi.nlm.nih.gov/39562555/](https://pubmed.ncbi.nlm.nih.gov/39562555/)
+5. Hill et al. (2024), PubMed ID 39562555: [https://pubmed.ncbi.nlm.nih.gov/39562555/](https://pubmed.ncbi.nlm.nih.gov/39562555/)
