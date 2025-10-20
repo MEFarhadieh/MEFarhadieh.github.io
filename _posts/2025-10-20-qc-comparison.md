@@ -16,11 +16,11 @@ Quality control (QC) is a critical step in single-cell and single-nucleus RNA se
 
 ### QC Methods Overview
 
-**QClus** [[1]](https://doi.org/10.1093/bioinformatics/btad189) is a clustering-based quality control method that identifies low-quality cells by detecting outlier clusters in the quality metric space. It uses unsupervised learning to distinguish technical artifacts from biological heterogeneity without requiring hard thresholds.
+**QClus** [[1]](https://doi.org/10.1093/nar/gkae1145) is a clustering-based quality control method that identifies low-quality cells by detecting outlier clusters in the quality metric space. It uses unsupervised learning to distinguish technical artifacts from biological heterogeneity without requiring hard thresholds.
 
 **SoupX** [[2]](https://doi.org/10.1093/gigascience/giaa151) estimates and removes ambient RNA contamination in droplet-based single-cell RNA-seq data. It models the "soup" of cell-free mRNA molecules present in the droplet solution that can be erroneously captured in cell barcodes, particularly affecting marker gene expression patterns.
 
-**Scrublet** [[3]](https://doi.org/10.1016/j.cmet.2018.11.005) identifies doublets by simulating artificial doublets from the data and comparing them to observed transcriptomes. Doublets occur when two cells are captured in the same droplet, creating artificial cell states that can mislead clustering and cell type identification.
+**Scrublet** [[3]](https://doi.org/10.1016/j.cels.2018.11.005) identifies doublets by simulating artificial doublets from the data and comparing them to observed transcriptomes. Doublets occur when two cells are captured in the same droplet, creating artificial cell states that can mislead clustering and cell type identification.
 
 ### Study Objective
 
@@ -166,8 +166,8 @@ The choice of QC method should be guided by the specific biological question and
 
 ## References
 
-1. QClus: [https://doi.org/10.1093/bioinformatics/btad189](https://doi.org/10.1093/bioinformatics/btad189)
+1. QClus: [https://doi.org/10.1093/nar/gkae1145](https://doi.org/10.1093/nar/gkae1145)
 2. SoupX: [https://doi.org/10.1093/gigascience/giaa151](https://doi.org/10.1093/gigascience/giaa151)
-3. Scrublet: [https://doi.org/10.1016/j.cmet.2018.11.005](https://doi.org/10.1016/j.cmet.2018.11.005)
+3. Scrublet: [https://doi.org/10.1016/j.cmet.2018.11.005](https://doi.org/10.1016/j.cels.2018.11.005)
 4. GEO Dataset GSE255612: [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255612](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255612)
 5. Hill et al. (2024), PubMed ID 39562555: [https://pubmed.ncbi.nlm.nih.gov/39562555/](https://pubmed.ncbi.nlm.nih.gov/39562555/)
