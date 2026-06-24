@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sample-Specific Molecular Heterogeneity in Atrial Fibrillation"
-date: 2026-07-02
+date: 2026-06-23
 description: Supplementary materials for my DocDay poster on single-cell transcriptomic meta-analysis of atrial fibrillation
 tags: single-cell transcriptomics atrial-fibrillation bioinformatics mrVI VAE
 categories: bioinformatics
