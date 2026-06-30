@@ -53,4 +53,5 @@ This VAE model generat with MrVI from scvi-tools. More information about scvi-to
 
 ## Contact
 [Preissl Lab](https://www.preissllab.org)
+
 [Mohammad-Erfan Farhadieh](https://mefarhadieh.github.io)
