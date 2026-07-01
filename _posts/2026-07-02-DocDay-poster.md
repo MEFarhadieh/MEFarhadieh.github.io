@@ -48,10 +48,3 @@ The input to the model is the integrated single-nucleus RNA-seq dataset, includi
 The model learns a compressed latent representation, referred to here as latent *z*, that captures major transcriptional patterns while reducing noise from the high-dimensional gene-expression space.
 
 This VAE model generat with MrVI from scvi-tools. More information about scvi-tools is available at the [official GitHub repository](https://github.com/scverse/scvi-tools).
-
----
-
-## Contact
-[Preissl Lab](https://www.preissllab.org)
-
-[Mohammad-Erfan Farhadieh](https://mefarhadieh.github.io)
